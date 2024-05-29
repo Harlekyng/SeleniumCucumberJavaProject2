@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.WebDriverUniversityDropdownPage;
 
-class WebDriverUniversityDropdownSteps {
+public class WebDriverUniversityDropdownSteps {
 
     WebDriverUniversityDropdownPage obj = new WebDriverUniversityDropdownPage();
 
