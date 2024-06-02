@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -74,9 +75,22 @@ public class BasePage {
         action.contextClick(Find(locator));
     }
 
-    public String getValueFromTable(String locator, int row, int column){
-        String cellINeed = locator + "/table/tbody/tr["+row+"]/td["+column+"]";
+    public String getValueFromTable(String locator, int row, int column){String cellINeed = locator + "/table/tbody/tr["+row+"]/td["+column+"]";
         return Find(cellINeed).getText();
     }
     
+/*  iframe & pop-up
+ *      public void switchToiFrame(String iFrameID){
+ *      driver.switchTo().frame(iFrameIndex);
+ *      }
+ * 
+ *      public void switchToParentFrame(){
+ *      driver.switchTo().parentFrame();
+ *      }
+ * 
+ *      public void dismissAlert(){
+ *      driver.switchTo().alert().dismiss();
+ *      }
+ */
+
 }

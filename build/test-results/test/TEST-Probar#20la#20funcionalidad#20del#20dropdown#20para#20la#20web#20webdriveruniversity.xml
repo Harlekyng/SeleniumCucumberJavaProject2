@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Probar la funcionalidad del dropdown para la web webdriveruniversity" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-24T03:32:50" hostname="CHRISTIAN" time="3.269">
+<testsuite name="Probar la funcionalidad del dropdown para la web webdriveruniversity" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-29T02:51:26" hostname="CHRISTIAN" time="3.863">
   <properties/>
-  <testcase name="Funcionamiento del Dropdown" classname="Probar la funcionalidad del dropdown para la web webdriveruniversity" time="3.269">
+  <testcase name="Funcionamiento del Dropdown" classname="Probar la funcionalidad del dropdown para la web webdriveruniversity" time="3.863">
     <failure message="io.cucumber.junit.UndefinedStepException: The step 'Veo el resultado de la seleccion' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;Veo el resultado de la seleccion&quot;)&#10;public void veo_el_resultado_de_la_seleccion() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'Veo el resultado de la seleccion' is undefined.
 You can implement this step using the snippet(s) below:
 
@@ -14,9 +14,9 @@ public void veo_el_resultado_de_la_seleccion() {
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[may. 23, 2024 11:32:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[may. 28, 2024 10:51:28 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 125
-may. 23, 2024 11:32:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 125.0.6422.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+may. 28, 2024 10:51:28 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 125.0.6422.112. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
